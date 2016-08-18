@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * hello module file.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function hello_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.hello':
+      $output = '<h3>About</h3>';
+      $output .= '<p>' . t('A <b><i>hook_help</i></b> page for Hello World module.'). '</p>';
+      return $output;
+  }
+}
