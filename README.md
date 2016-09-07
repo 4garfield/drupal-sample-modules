@@ -1,2 +1,2 @@
-# drupal-sample-modules
-a list of sample drupal 8 modules
+# drupal_sample_modulemodule
+a sample Drupal 8 module interact with Drupal core.

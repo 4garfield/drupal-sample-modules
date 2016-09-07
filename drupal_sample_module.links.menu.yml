@@ -1,0 +1,5 @@
+drupal_sample_module.menu_link:
+  title: 'Hello World'
+  description: 'sample Drupal 8 page'
+  route_name: drupal_sample_module.content
+  weight: 100

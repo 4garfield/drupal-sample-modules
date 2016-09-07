@@ -1,7 +1,0 @@
-name: Hello
-description: a hello world module for drupal 8
-package: Custom
-type: module
-
-core: 8.x
-version: 8.x-1.x-dev

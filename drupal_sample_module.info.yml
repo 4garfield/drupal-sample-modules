@@ -1,0 +1,8 @@
+name: Drupal Sample Module
+description: a sample module interact with Drupal 8
+package: Custom
+
+type: module
+core: 8.x
+
+version: 8.x-1.x-dev

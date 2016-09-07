@@ -1,0 +1,7 @@
+drupal_sample_module.content:
+  path: '/hello'
+  defaults:
+    _controller: '\Drupal\drupal_sample_module\Controller\SampleController::content'
+    _title: 'Hello'        # page title
+  requirements:
+    _permission: 'access content'

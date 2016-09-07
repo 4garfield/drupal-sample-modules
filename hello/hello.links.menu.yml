@@ -1,5 +1,0 @@
-hello.menu_link:
-  title: 'Hello World'
-  description: 'example of how to a page link'
-  route_name: hello.content
-  weight: 100
