@@ -1,6 +1,6 @@
 name: Drupal Sample Module
 description: a sample module interact with Drupal 8
-package: Custom
+package: Sample Modules
 
 type: module
 core: 8.x
