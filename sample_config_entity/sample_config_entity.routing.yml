@@ -1,0 +1,31 @@
+entity.grocery.add_form:
+  path: '/admin/config/system/sample_config_entity/add'
+  defaults:
+    _entity_form: grocery.add
+    _title: 'Add grocery'
+  requirements:
+    _permission: 'administer grocery'
+
+entity.grocery.edit_form:
+  path: '/admin/config/system/sample_config_entity/manage/{grocery}'
+  defaults:
+    _entity_form: grocery.edit
+    _title: 'Edit grocery'
+  requirements:
+    _permission: 'administer grocery'
+
+entity.grocery.delete_form:
+  path: '/admin/config/system/sample_config_entity/manage/{grocery}/delete'
+  defaults:
+    _entity_form: grocery.delete
+    _title: 'Delete grocery'
+  requirements:
+    _permission: 'administer grocery'
+
+entity.grocery.list:
+  path: '/admin/config/system/sample_config_entity'
+  defaults:
+    _entity_list: grocery
+    _title: 'List grocery'
+  requirements:
+    _permission: 'administer grocery'

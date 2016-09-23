@@ -1,0 +1,7 @@
+# Add some local task links to facilitate navigation.
+
+sample_config_entity.add_grocery_action:
+  route_name: entity.grocery.add_form
+  title: 'Add Grocery'
+  appears_on:
+    - entity.grocery.list

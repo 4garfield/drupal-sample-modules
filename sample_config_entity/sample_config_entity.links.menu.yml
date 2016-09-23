@@ -1,0 +1,6 @@
+sample_config_entity.export_grocery_settings:
+  title: Grocery settings
+  parent: system.admin_config_system
+  description: Configure grocery.
+  route_name: entity.grocery.list
+  weight: 40

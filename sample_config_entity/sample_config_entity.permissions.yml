@@ -1,0 +1,4 @@
+#Define the administer permission for the grocery config entity.
+administer grocery:
+  title: Administer Grocery
+  description: Create and edit grocery

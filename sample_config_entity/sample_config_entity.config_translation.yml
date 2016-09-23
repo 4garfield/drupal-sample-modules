@@ -1,0 +1,8 @@
+# define translatable settings
+sample_config_entity.config:
+  title: 'System information'
+  # the base route of the configuration page
+  base_route_name: system.site_information_settings
+  # list of configurations which would be translated
+  names:
+    - sample_config_entity.store.*
