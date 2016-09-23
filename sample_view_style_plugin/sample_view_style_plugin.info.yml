@@ -1,0 +1,11 @@
+name: Sample View Style Module
+description: Provides a view style plugin that displays rows as a business card.
+package: Sample Modules
+
+dependencies:
+  - views
+
+type: module
+core: '8.x'
+
+version: 8.x-1.x-dev
