@@ -1,0 +1,33 @@
+# Schema for configuration files of the sample_config_entity module.
+
+sample_config_entity.grocery.*:
+  type: mapping
+  label: 'Grocery'
+  mapping:
+    id:
+      type: string
+      label: 'Grocery ID'
+    uuid:
+      type: string
+      label: 'Grocery UUID'
+    label:
+      type: label
+      label: 'Grocery Name'
+    weight:
+      type: integer
+      label: 'Weight'
+    desc:
+      type: text
+      label: "Grocery Description"
+    price:
+      type: float
+      label: "Grocery price"
+    date:
+      type: string
+      label: "Grocery Produce Date"
+    address:
+      type: uri
+      label: "Factory Homepage"
+    contact:
+      type: email
+      label: "Factory contact email"
