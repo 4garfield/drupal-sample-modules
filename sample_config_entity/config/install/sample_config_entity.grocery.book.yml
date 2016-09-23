@@ -1,0 +1,11 @@
+# this configuration file export from "admin/config/development/configuration/single/export"
+
+id: book
+uuid: cb06eeb9-b8c4-417e-aa2a-425f3004b1b7
+label: book
+weight: 0
+desc: "It's great!\r\naverage rate 5 star"
+price: 14.28
+date: '2016-09-24'
+address: 'https://book.example.com'
+contact: support@book.com
