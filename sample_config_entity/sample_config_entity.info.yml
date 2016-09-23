@@ -1,0 +1,8 @@
+name: Sample Config Entity Module
+description: a sample Grocery config entity module
+package: Sample Modules
+
+type: module
+core: 8.x
+
+version: 8.x-1.x-dev
