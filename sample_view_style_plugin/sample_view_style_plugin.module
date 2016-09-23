@@ -1,0 +1,38 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function sample_view_style_plugin_theme($existing, $type, $theme, $path) {
+  return array(
+    'views_business_card' => array(
+      'variables' => array('view' => NULL, 'rows' => NULL),
+    ),
+  );
+}
+
+function template_preprocess_views_business_card(&$variables) {
+  $view = $variables['view'];
+  $rows = $variables['rows'];
+  $variables['card'] = array();
+
+  // Prepare the tab navigation.
+  $field = $view->style_plugin->options['card_field'];
+  if (!$field || !isset($view->field[$field])) {
+    template_preprocess_views_view_unformatted($variables);
+    return;
+  }
+
+  $card = array();
+  foreach ($rows as $id => $row) {
+    $card[$id] = array(
+      '#theme' => 'views_view_field',
+      '#view' => $view,
+      '#field' => $view->field[$field],
+      '#row' => $row['#row'],
+    );
+  }
+
+  template_preprocess_views_view_unformatted($variables);
+  $variables['card'] = $card;
+}
